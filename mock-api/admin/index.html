@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Virat News Admin</title>
+    <link rel="stylesheet" href="/admin/styles.css" />
+  </head>
+  <body>
+    <div id="app">
+      <h1>Virat News Admin</h1>
+
+      <div id="auth">
+        <input id="admin-pass" type="password" placeholder="Admin password" />
+        <button id="btn-login">Login</button>
+        <button id="btn-logout" style="display:none">Logout</button>
+      </div>
+
+      <div class="tabs">
+        <button id="tab-categories">Categories</button>
+        <button id="tab-articles">Articles</button>
+        <button id="tab-ads">Ads</button>
+      </div>
+
+      <div id="content"></div>
+    </div>
+
+    <script src="/admin/app.js"></script>
+  </body>
+</html>
